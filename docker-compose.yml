@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  play_ground:
+    image: jupyter/datascience-notebook:ubuntu-22.04
+    container_name: site_comp
+    tty: true
+    volumes:
+      - ./site_compare:/home/jovyan/work
